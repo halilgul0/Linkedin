@@ -1,0 +1,127 @@
+body{
+    background-color: #f3f2ef;
+}
+::placeholder{
+    background-position: 10%;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-image: url(../assets/search.png);
+    text-align: center;
+}
+.search{
+    width: 250px;
+    background-color: #eef3f8;
+}
+.vr {
+    border-left: 2px solid #c6cbcf;
+    height: auto;
+  }
+.nav{
+    background-color: #ffffff;
+}
+
+.card{
+    background-position-x: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://picsum.photos/id/98/800/200);
+    text-align: center;
+    border-radius: 1em;
+}
+.card a{
+    text-decoration: none;
+    color: #000;
+}
+.card>ul>li{
+    text-decoration: none;
+    color: #000;
+}
+.card>ul>li:hover{
+    background-color: #ebebeb;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 2px white;
+}
+.smalltext{
+    text-decoration: none;
+    color: rgb(16, 89, 224);
+    text-align: left;
+}
+.gonderi-panel{
+    border-radius: 1em;
+    margin-top: 90px; 
+    margin-left: 150px;
+}
+.gonderi{
+    border-radius: 1em;
+}
+.gonderi-panel-buton{
+    border-radius: 2em;
+    border: solid 1px rgb(156, 156, 156);
+    width: 420px;
+    height: 50px;
+    text-align: left;
+    padding-left: 10px;
+    color: rgb(104, 103, 103);
+}
+.gonderi-panel-buton:hover{
+    background-color: rgb(228, 226, 226);
+}
+.btn-white:hover{
+    background-color: rgb(236, 235, 235);
+}
+.baslik {
+    position: relative;
+    text-align: right;
+  }
+.baslik hr {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+}
+.baslik .yazi {
+    background-color: #f3f2ef;
+    color: darkgrey;
+    font-size: 14px;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+  }
+  .card-x>ul>li{
+    background-color: white;
+    border: white;
+}
+  .card-x>ul>li:hover{
+      background-color: white;
+  }
+  .card-x img{
+    width: 60px;
+    height: 60px;
+    border: solid 2px white;
+}
+.sag-panel-gorsel{
+    background-color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+.sag-panel-footer>ul>li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 3px;
+    color: rgb(139, 138, 138);
+}
+.sag-panel-footer>ul>li>a{
+    color: rgb(139, 138, 138);
+    text-decoration: none;
+}
+.sag-panel-footer>ul>li>a:hover{
+    color: rgb(87, 86, 86);
+    text-decoration: underline;
+}
